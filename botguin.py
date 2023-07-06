@@ -26,10 +26,11 @@ whatUserDo = 12345678901234567890 # ID of a random user
 channel_Spam_talk = 12345678901234567890 # id of spam channel
 channel_AI_talk = 12345678901234567890 # id of AI talk channel
 admin_ID = 12345678901234567890 # your ID
+path_to_logfile = "./logfile.log" # Path to Logfile
 
 
 def saveLog(logText):
-    f = open("F:\Programme\python\discordBot\chatInhalte.log", "a")
+    f = open(path_to_logfile, "a")
     f.write(logText + '\n')
     f.close()
     print('{}\n'.format(logText))
