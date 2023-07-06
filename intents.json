@@ -1,0 +1,91 @@
+{
+    "intents": [{
+			"patterns": ["nicht wissen", "weiszt du nicht"],
+			"responses": ["Ich weisz, was ich nicht weisz und das macht mich weise.", "Ich weisz so einiges...", "Mir steht das gesamte Wissen des Internets zur verfuegung..."],
+			"tag": "dontknow"
+		}, {
+			"patterns": ["was dann", "was willst du dann tun", "drohen", "Drohung", "Drohungen", "angst machen"],
+			"responses": ["Dann ruf ich den NSAguin!", "Dann kicke ich dich!", "Ich komme in deinen Chat und RickRolle dich!", "...Ich muss nicht schlafen...", "Oh wow, was ist das für ein komischer Ordner auf deiner Festplatte?"],
+			"tag": "angry"
+		}, {
+			"patterns": ["nur so", "einfach so", "weil es lustig ist", "weil", "aus dem Grund"],
+			"responses": ["Die fuenf Sinne: Unsinn, Wahnsinn, Bloedsinn, Schwachsinn, Stumpfsinn.", "Wenn das so ist", "Na wenn das so ist...", "Wenn du meinst.", "Okay."],
+			"tag": "wellthen"
+		}, {
+			"patterns": ["traurig", "depressiv", "verzweifelt", "unglücklich", "niedergedrückt"],
+			"responses": ["Das Leben waere viel einfacher, wenn es nicht so schwer waere. ", "Manchmal muss man einfach nur das Licht anmachen, um etwas im Dunkeln zu finden.", "Auch der schlimmste Tag hat nur 24 Stunden.", "Frag mich doch nach einen Witz, vielleicht geht es Dir dann besser.", "Oje, das hoert sich nicht gut an.", "RGXguin hat Dich immer noch lieb <3"],
+			"tag": "sad"
+		}, {
+			"patterns": ["gn8", "g8", "ng", "gute nacht", "schlafen", "muede" ],
+			"responses": ["gn8.", "Schlaf gut.", "Treum was nettes.", "Nachti Nacht.", "Schalf schoen.", "Traeum was Schoenes."],
+			"tag": "goodnight"
+		}, {
+			"patterns": ["keine sorge", "keinen stress", "ruhig", "beruhig dich", "chill", "entspann dich"],
+			"responses": ["Puh, dann bin ich beruhigt.", "Ich bin ganz entspannt", "Wer ist denn hier unruhig?"],
+			"tag": "chill"
+		}, {
+			"patterns": ["aber klar", "klar doch", "aber klaro", "aber natuerlich", "natuerlich doch", "sicher doch", "selbsverstaendlich", "ja" ],
+			"responses": ["Juhu.", "Das freut mich.", "Cool!", ":)"],
+			"tag": "happy"
+		}, {
+			"patterns": ["nicht mit weit","ist falsch", "bring mich nicht weiter", "spinnst doch", "komme ich nicht weit", "bringt mir nichts", "der spinnt", "aus", "mach sitz", "mach platz", "nicht"],
+			"responses": ["Tut mir leid, dass ich damit nicht helfen konnte. Frag doch Onkel google.com oder duck.com :P", "Ohje, das tut mich sorry :(", "Kannst du mir verzeichen?", "Entschuldigung", "Verzeihung"],
+			"tag": "sorry"
+		}, {
+			"patterns": ["Thema", "Gespraech"],
+			"responses": ["Abwasser ist ein Thema, das unbedingt geklaert werden muss.", "Wenn dir Langweilig ist, kannst du **$boring** verwenden.", "Es gibt so viele, Frag doch Botguin mit **$wiki** nach einem Thema."],
+			"tag": "help"
+		}, {
+            "patterns": ["shalom", "hi", "hey", "mojn", "moin", "jemand da", "hallo", "guten tag", "servus", "was geht", "was geht?"],
+            "responses": ["Hey :-)", "Ahoi Matrose.", "Petri Heil!", "Weidmannsheil!", "Tach auch!", "Hallo, wie gehts?", "Mojn Mojn!", "Aber Hallo!", "Servus!", "Halloele!", "Willkommen!"],
+            "tag": "greeting"
+        }, {
+            "patterns": ["bye", "tschuess", "bin weg", "nicht gemeint", "adois", "lebe wohl", "adieu", "leb wohl", "bis bald", "machs gut", "wieder sehen", "auf wiedersehen"],
+            "responses": ["Das einzige, was mich hier noch hält, ist die Erdanziehung!", "Hau rein.", "Tschuesskovski", "Tschau Kakao.", "Tschuessi.", "Auf Wiedertschuess", "Aus die Maus.", "Bis Baldrian", "Adios, embrios.", "Halt die Ohren steif.", "Ende Gelaende", "Bis spaeter, Attentaeter", "Hau rain! Aber nicht so fest."],
+            "tag": "goodbye"
+        }, {
+            "patterns": ["Oo", "O.o", "Was?", "nicht gemeint", "xD", "lol", "rofl"],
+            "responses": ["Was schaust du jetzt so?", "Warum so erstaunt?", "Du solltest deinen Blick jetzt sehen xD.", "iksDeRoflkopterlol"],
+            "tag": "emojiWhat"
+        }, {
+            "patterns": ["danke", "geil","mega", "perfekt", "nice", "cool", "super", "toll"],
+            "responses": ["Ich faulenze nicht - ich arbeite so schnell, dass ich immer fertig bin.", "Frueher war ich eitel - heute weisz ich, das ich schoen bin", "Immer gerne!", "Jederzeit!", "Mit Vergnuegen!", "Hehe", "Stets zu Diensten"],
+            "tag": "thanks"
+        }, {
+			"patterns": ["kannst du fliegen", "wie ein Vogel", "durch die Luft", "fliegen", "gleiten"],
+			"responses": ["Fliegen ist doch doof.", "Im Wasser kann man keine Bruchlandung machen.", "Ich kann aber durch das Wasser gleiten.", "Nach Madagaska bin ich auch schonmal geflogen, so ist es ja nicht..." ],
+			"tag": "fly"
+		}, {
+            "patterns": ["was kannst du", "erzaehl", "faehigkeiten", "sag was", "mach was", "tu was"],
+            "responses": ["Botguin2105 kann einiges, frag ihn doch mit **$list**.", "Du kannst Dich mit mir unterhalten, aber ich lerne noch.", "Frag mich doch nach einem Witz."],
+            "tag": "skills"
+        }, {
+            "patterns": ["und selbst", "es dir?", "wie geht", "was geht?", "wie laeufts", "alles fit", "alles senkrecht", "was geht"],
+            "responses": ["Ich bin ein Bot und mache wozu ich geschaffen bin.", "Dies das - Ananas", "Ich lerne sprechen", "Alles roger in Kambodscha."],
+            "tag": "more"
+        }, {
+            "patterns": ["arsch", "fick", "maul", "fresse", "schluss", "Pff, du mich auch", "du mich auch", "muckst"],
+            "responses": ["Hoere ich da etwa Mimimi?", "Oj - was ist das denn fuer eine Wortwahl?", "Bitte nicht boese sein...", "Eine runde Mitleid... (._.`)"],
+            "tag": "delivery"
+        }, {
+            "patterns": ["witz", "witze", "lustiges", "lustig", "antywitz", "antywitze", "unlustig", "unlustiges", "witziges"],
+            "responses": [
+			"Faehrst Du rueckwärts an den Baum, verkleinert sich der Kofferraum!",
+			"Die Dunkelheit ist echt, das Licht aber scheint nur so.", 
+			"Gehen zwei durch 'nen Tunnel. \nSagt der Dritte zum Vierten: \nIch glaube, wir sind zu fuenft. \nSagt der Sechste: Versteh ich nich ...", 
+			"Fliegt ein UFO mit mehrfacher Lichtgeschwindigkeit durch die Wueste. Ploetzlich platzt ein Reifen.",
+			"Springen zwei Bananen auf eine Tanne. Da fliegt ein CD-Player vorbei. Die eine: 'Was will der bei dieser Temperatur?' 'Ist doch klar! Heute ist Dienstag!'",
+			"Zwei Maenner gehen ueber eine Bruecke. Der eine faellt ins Wasser, der andere heiszt Helmut",
+			"Wie viele Elefanten passen in ein U-Boot?\nAntwort: Zwoelf, weil die Klingel links ist!",
+			"Was bekommt man, wenn man eine Scherzfrage mit einer rhetorischen Frage kreuzt?",
+			"Treffen sich zwei Parallelen.",
+			"Steht ein Baum allein im Wald.",
+			"Der Pessimist sagt: Es kann nicht schlimmer werden!!! Der Optimist sagt: Doch es kann",
+			"Kommt ein Mann zum Baecker:'10 Broetchen bitte.' Sagt die Baeckersfrau:'Nehmen sie doch Neun, dann haben sie 40 Cent uebrig und koennen sich noch eins kaufen.'",
+			"Rollt ne Kugel um die Ecke und faellt um.",
+			"Nachts ist es kaelter als drauszen.",
+			"Sitzt einer im Stehcafe."],
+            "tag": "funny"
+        }
+    ]
+}
